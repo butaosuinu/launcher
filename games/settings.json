@@ -1,27 +1,42 @@
 {
   "escape": {
     "name": "脱出ゲーム",
-    "description": "今年度の新入生歓迎会で展示したゲームです。",
+    "description": "誰も居ない講義室から抜け出そう。",
     "path": "games/escape/dassyutsu.exe"
   },
   "avoid": {
     "name": "Avoid Game",
-    "description": "迫ってくる車を避けるゲームです。",
+    "description": "迫ってくる対向車を避けろ。",
     "path": "games/avoid.nw"
   },
   "shooting": {
     "name": "SHOOTING GAME",
-    "description": "飛行機をマウスで操作して敵を撃破するゲームです。",
+    "description": "戦闘機をマウスで操る横スクロールシューティング。",
     "path": "games/shooting.nw"
   },
   "naguru": {
     "name": "ナグル&オチモンズ",
-    "description": "4人対戦型ゲーム。上から落ちてくる物を拾う大乱闘ゲームです。1人プレイも可。",
+    "description": "4人対戦型ゲーム。上から落ちてくる物を拾う大乱闘ゲーム。ぼっち歓迎。",
     "path": "games/naguru/gakusai2013.exe"
   },
   "yugeki": {
     "name": "電算遊撃",
-    "description": "シューティングゲームです。",
+    "description": "いわゆる普通の弾幕シューティング。",
     "path": "games/yugeki/2013gakusai_game.exe"
+  },
+  "gyakugoru": {
+    "name": "逆ゴルフ",
+    "description": "カップ(穴)を動かしてホールインワン。爽快ゴルフゲーム。",
+    "path": "games/gyakugoru/gyakugoru.exe"
+  },
+  "fork": {
+    "name": "fork",
+    "description": "弾を避けるゲーム。",
+    "path": "games/fork.nw"
+  },
+  "othello": {
+    "name": "オセロ",
+    "description": "リバーシ",
+    "path": "games/Othello/Othello.exe"
   }
 }

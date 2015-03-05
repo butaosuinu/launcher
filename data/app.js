@@ -6,11 +6,9 @@ var app = require("appjs"),
     hogan = require("hogan.js"),
     express = require("express"),
     games = require("../games/settings.json"),
-    vote = require("./lib/vote")(),
     cp = require("child_process"),
     path = require("path"),
-    fs = require("fs"),
-    http = require("http");
+    fs = require("fs");
 
 var basePath = path.resolve(__dirname, "../");
 
@@ -28,7 +26,7 @@ var template = hogan.compile(fs.readFileSync(path.resolve(__dirname, "content/in
     }),
     index = template.render({games: model});
 
-app.router.get("/", function (req, res, next) {
+app.router.get("/", function (req, res) {
   res.end(index);
 });
 
@@ -42,9 +40,9 @@ var appFlag = false;
 // close web app
 var expressApp = express();
 expressApp.use(function (req, res, next) {
-  res.header('Access-Control-Allow-Origin', "*");
-  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
 expressApp.delete("/game", function (req, res) {
@@ -54,7 +52,7 @@ expressApp.delete("/game", function (req, res) {
 expressApp.listen(8888, "127.0.0.1");
 
 // start game
-app.router.get("/start", function (req, res, next) {
+app.router.get("/start", function (req, res) {
   if (appFlag)
     return res.end({status: "ng", error: "起動中のゲームを終了してください。"});
 
@@ -86,18 +84,6 @@ app.router.get("/start", function (req, res, next) {
   window.frame.minimize();
 
   res.end({status: "ゲーム起動中…", app: game});
-
-  vote.start(req.params);
-});
-
-// vote game
-app.router.get("/vote", function (req, res, next) {
-  vote.vote(req.params, function (err, data) {
-    if (err)
-      return res.end(500, {err: err});
-
-    res.end(data);
-  });
 });
 
 // game 終了処理
