@@ -1,0 +1,27 @@
+{
+  "escape": {
+    "name": "脱出ゲーム",
+    "description": "今年度の新入生歓迎会で展示したゲームです。",
+    "path": "games/escape/dassyutsu.exe"
+  },
+  "avoid": {
+    "name": "Avoid Game",
+    "description": "迫ってくる車を避けるゲームです。",
+    "path": "games/avoid.nw"
+  },
+  "shooting": {
+    "name": "SHOOTING GAME",
+    "description": "飛行機をマウスで操作して敵を撃破するゲームです。",
+    "path": "games/shooting.nw"
+  },
+  "naguru": {
+    "name": "ナグル&オチモンズ",
+    "description": "4人対戦型ゲーム。上から落ちてくる物を拾う大乱闘ゲームです。1人プレイも可。",
+    "path": "games/naguru/gakusai2013.exe"
+  },
+  "yugeki": {
+    "name": "電算遊撃",
+    "description": "シューティングゲームです。",
+    "path": "games/yugeki/2013gakusai_game.exe"
+  }
+}

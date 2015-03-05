@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+  background-color: #f4f4f4;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  padding-top: 1px;
+  background-color: #fff;
+}
+header h1 {
+  position: relative;
+  margin: 20px;
+}
+.title {
+  position: absolute;
+  right: 0;
+}
+
+.content {
+  padding: 0 10px;
+}
+.content .app {
+  position: relative;
+  width: 29.3%;
+  min-width: 250px;
+  height: 200px;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  float: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.content .app:hover {
+  background-color: #f9f9f9;
+}
+.content .app dt {
+  position: relative;
+  top: 0;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.content .app dt span {
+  position: relative;
+  top: 0;
+  margin: 20px 0 0 16px;
+  padding: 0;
+  font-size: 20px;
+}
+.icon {
+  padding: 0px;
+}
+.icon > img {
+  width: 100%;
+  height: 100%;
+}
+.content .app dd {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.field {
+  display: none;
+}
+
+.message {
+  margin: 10px 0;
+  text-align: center;
+}
+.judge {
+  display: none;
+}
+.judge > button {
+  position: relative;
+  width: 40%;
+  height: 200px;
+  margin: 5%;
+  font-size: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+.bad {
+  background-color: #db2733;
+}
+.bad:hover {
+  background-color: #ec514e;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-top: 4px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
