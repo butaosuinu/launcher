@@ -5,6 +5,11 @@ Densan Launcher
 
 Windows にて `launcher-win32-ia32/launcher.exe` を実行すると起動します。
 
+for Developer
+-------------
+* `npm i`
+* `npm i -g electron-prebuilt electron-packager`
+
 Development
 -----------
 開発中は terminal で次のコマンドを叩いて起動します。
