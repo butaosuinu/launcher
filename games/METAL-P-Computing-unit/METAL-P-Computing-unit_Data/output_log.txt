@@ -1,0 +1,27 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: VMware SVGA 3D (ID=0x405)
+    Vendor:   VMWare
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.469 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: \\vmware-host\Shared Folders\ドキュメント\Git\densan-launcher\games\METAL-P-Computing-unit\METAL-P-Computing-unit_Data\Managed\System.dll (this message is harmless)
