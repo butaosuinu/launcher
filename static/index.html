@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="launcher">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="topcoat/css/topcoat-mobile-light.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game/App Launcher</title>
+  </head>
+  <body ng-controller="GameListCtrl">
+    <header>
+      <h1>Game/App Launcher <span id="app-title" class="title"></span></h1>
+    </header>
+    <div id="content" class="content">
+      <section class="apps" ng-if="! launched">
+        <dl class="app" ng-repeat="game in games" ng-click="game.start()">
+          <dt>
+            <div class="topcoat-icon-button--large icon">
+              <img class="topcoat-icon--large" ng-attr-src="../games/{{game.id}}/{{game.id}}.png" alt="icon">
+            </div>
+            <span>{{game.name}}</span>
+          </dt>
+          <dd>{{game.description}}</dd>
+        </dl>
+      </section>
+
+      <section ng-if="launched">
+        <p class="message">
+          ゲームを別ウィンドウで開いています…
+        </p>
+      </section>
+
+      <div class="clearfix"></div>
+    </div>
+    <footer>
+      &copy; 電子計算機研究部
+    </footer>
+
+    <script src="js/ui.js"></script>
+  </body>
+</html>

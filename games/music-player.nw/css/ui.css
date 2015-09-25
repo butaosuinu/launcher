@@ -1,0 +1,45 @@
+html, body{
+	margin: 0;
+}
+
+h1{
+	width: 500px;
+	text-align: center;
+	margin: 20px auto;
+	
+}
+
+#contents{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#playlist{
+	height: 400px;
+	padding: 10px;
+	border: solid 3px;
+	border-color: gray;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+li{
+	list-style: decimal;
+	margin: 5px 0px;
+	padding: 20px 5px;
+	text-align: center;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	border: solid 1px;
+	border-radius: 4px;
+	-webkit-user-select: none;
+}
+
+li:hover{
+	background-color: #eee;
+	cursor: pointer;
+}
+
+#audio_player{
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
