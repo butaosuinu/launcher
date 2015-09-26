@@ -34,8 +34,8 @@ app.on("ready", function () {
 
     var res = dialog.showMessageBox(mainWindow, {
       type: "question",
-      message: "閉じちゃうの？",
-      detail: "ねぇ、本当に閉じるつもりなの？？",
+      message: "警告",
+      detail: "本当にアプリケーションを閉じますか？",
       buttons: ["キャンセル", "閉じる"]
     });
 

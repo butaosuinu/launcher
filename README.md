@@ -3,7 +3,7 @@ Densan Launcher
 
 北海道科学大学電子計算機研究部が学祭で展示しているゲームとそのランチャーです。
 
-Windows にて `launcher-win32-ia32/launcher.exe` を実行すると起動します。
+`launcher.zip` を解凍し、Windows にて `launcher/launcher.exe` を実行すると起動します。
 
 for Developer
 -------------
