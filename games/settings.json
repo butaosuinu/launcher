@@ -1,8 +1,13 @@
 {
   "music-player.nw": {
     "name": "DTM Team Music",
-    "description": "DTM Team による楽曲展示。",
+    "description": "DTM Team による楽曲の展示。",
     "path": "games/music-player.nw"
+  },
+  "3dViewer_2015SF": {
+    "name": "3D Team CG",
+    "description": "3D チーム 3D 班による 3DCG の展示。",
+    "path": "games/3dViewer_2015SF/viewer_Gakusai2015_release.exe"
   },
   "unity-chan-dash!!": {
     "name": "UnityちゃんDash",
@@ -17,11 +22,11 @@
   "ball": {
     "name": "ボールゲーム",
     "description": "向こう岸に見えるゴールに向かって転がっていこう。戻れない時は、一度ゲームを閉じよう。",
-    "path": "games/ball/学祭展示用.exe"
+    "path": "games/ball/ball.exe"
   },
   "mezamasi.nw": {
     "name": "目覚ましアプリ",
-    "description": "Web ブラウザで動く目覚ましアプリ。",
+    "description": "Web ブラウザで動く目覚ましアプリ。これで明日から早起き！",
     "path": "games/mezamasi.nw"
   },
   "gyakugoru": {
@@ -36,7 +41,7 @@
   },
   "fork.nw": {
     "name": "fork",
-    "description": "シンプルな避けゲー。赤いバーから、どこまで逃げきれるか！",
+    "description": "シンプルな避けゲー。赤い弾から、どこまで逃げきれるか！",
     "path": "games/fork.nw"
   },
   "avoid.nw": {
@@ -56,7 +61,7 @@
   },
   "othello": {
     "name": "オセロ",
-    "description": "オセロは登録商標。一般名は、リバーシ。",
+    "description": "みんなお馴染みのボードゲーム、オセロ(リバーシ)。",
     "path": "games/Othello/Othello.exe"
   },
   "escape": {
