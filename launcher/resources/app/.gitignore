@@ -1,0 +1,11 @@
+.*
+!.gitignore
+!.gitkeep
+
+*.log
+
+node_modules
+
+Thumbs.db
+
+launcher-*
